@@ -1,7 +1,6 @@
-/**
- * Created by alexandre on 18.11.2017.
- */
+"use strict";
 
 $(function() {
-    console.log("ready!");
+    console.log("hello");
 });
+
