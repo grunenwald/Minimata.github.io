@@ -4814,3 +4814,8 @@ body.is-mobile .banner > article {
 .shadowed {
     text-shadow: 1px 1px 1px black;
 }
+@media screen and (max-width: 736px) {
+    #slogan {
+        opacity: 0;
+    }
+}
