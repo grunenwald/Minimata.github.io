@@ -4814,8 +4814,24 @@ body.is-mobile .banner > article {
 .shadowed {
     text-shadow: 1px 1px 1px black;
 }
+.bigscreen {
+    display: block;
+}
+.smallscreen {
+    display: none;
+}
+
 @media screen and (max-width: 736px) {
     #slogan {
-        opacity: 0;
+        display: none;
+    }
+    .smalltitle {
+        font-size: 2rem!important;
+    }
+    .bigscreen {
+        display: none;
+    }
+    .smallscreen {
+        display: block;
     }
 }
